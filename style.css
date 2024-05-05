@@ -32,7 +32,7 @@ a {
 }
 
 /* title */
-.pre-title{
+.pre-title {
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   color: grey;
@@ -57,12 +57,14 @@ a {
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
   transition: 0.2s ease-in-out;
   -webkit-transition: 0.2s ease-in-out;
   -moz-transition: 0.2s ease-in-out;
   -ms-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
+  border-bottom: 1px solid gainsboro;
 }
 
 .nav ul {
@@ -155,6 +157,7 @@ section {
   color: white;
   text-align: justify;
   padding: auto;
+  text-align: center;
 }
 
 .about-icon {
